@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:1.2
+FROM continuumio/miniconda3:latest
 
 MAINTAINER Ivan Turianytsia <vanyaturianitsa@gmail.com>
 
