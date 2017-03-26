@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  tensorflow:
+    image: ivanturianytsia/tensorflow-jupyter:latest
+    container_name: tensorflow
+    volumes:
+      - $PWD:/opt/notebooks/tensorflow
+    ports:
+      - "8888:8888"
